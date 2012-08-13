@@ -1,0 +1,13 @@
+README.txt
+setup.py
+src/collective/__init__.py
+src/collective.blueprint.references.egg-info/PKG-INFO
+src/collective.blueprint.references.egg-info/SOURCES.txt
+src/collective.blueprint.references.egg-info/dependency_links.txt
+src/collective.blueprint.references.egg-info/entry_points.txt
+src/collective.blueprint.references.egg-info/namespace_packages.txt
+src/collective.blueprint.references.egg-info/not-zip-safe
+src/collective.blueprint.references.egg-info/requires.txt
+src/collective.blueprint.references.egg-info/top_level.txt
+src/collective/blueprint/__init__.py
+src/collective/blueprint/references/__init__.py
