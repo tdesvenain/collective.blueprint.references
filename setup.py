@@ -16,17 +16,17 @@ long_description = (
 
 setup(name='collective.blueprint.references',
       version=version,
-      description="A blueprint to set relations between Plone documets",
+      description="A blueprint to set relations between Plone documents",
       long_description=long_description,
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
         "Programming Language :: Python",
         ],
-      keywords='',
+      keywords='plone transmogrifier blueprint relations references',
       author='',
       author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      url='git@github.com:tdesvenain/collective.blueprint.references.git',
       license='gpl',
       packages=find_packages('src'),
       package_dir = {'': 'src'},
@@ -36,6 +36,7 @@ setup(name='collective.blueprint.references',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'collective.transmogrifier',
       ],
       entry_points="""
       # -*- Entry points: -*-
