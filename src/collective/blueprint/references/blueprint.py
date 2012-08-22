@@ -32,8 +32,8 @@ class ReferenceSetter(object):
                     try:
                         ref_obj = self.context.unrestrictedTraverse(ref_path.lstrip('/'))
                     except AttributeError:
-                        LOG.error("Error trying to set %s reference between %s and %s",
-                                  reference_attr, path, ref_path)
+                        logger.error("Error trying to set %s reference between %s and %s",
+                                     reference_attr, path, ref_path)
                         continue
 
                     ref_objects.append(ref_obj)
@@ -42,7 +42,7 @@ class ReferenceSetter(object):
                 if not field:
                     logger.error("Error trying to get %s target field",
                                  reference_attr)
-                    import pdb;pdb.set_trace()
+                    continue
 
                 field.set(obj, ref_objects)
 
